@@ -1,0 +1,15 @@
+[
+    {
+        "collection": "users",
+        "indexKeys": {
+            "name": 1
+        },
+        "indexProperties":{
+            "name": "user_2",
+            "unique": true,
+            "partialFilterExpression":{
+                "products.productName":"CNDC"
+            }
+        }
+    }
+]
